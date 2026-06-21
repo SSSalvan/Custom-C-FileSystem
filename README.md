@@ -1,11 +1,18 @@
-Custom C File System
+# Custom C File System
 
-Description
-A low-level operating systems project that implements a custom file system in C. It handles file operations, memory allocation, block management, and directory structures directly at the system level, showcasing a deep understanding of OS architecture.
+## Overview
+A low-level operating systems project that implements a custom file system architecture in C. This project handles fundamental file operations, memory allocation, block management, and hierarchical directory structures directly at the system level, showcasing a deep understanding of core OS principles.
 
-Technologies Used
-C, Make, GCC.
+## Technical Architecture
+- **Language:** C
+- **Build System:** Makefile / GCC
+- **Core Concepts:** Inode management, memory blocks, file I/O operations
 
-How to Run
-Use the provided Makefile to compile the source code by running 'make'.
-Execute the compiled binary to interact with the simulated file system.
+## Features
+- Simulated disk block allocation and deallocation.
+- Custom implementation of standard file operations (read, write, open, close).
+- Robust error handling for memory boundary conditions.
+
+## Getting Started
+1. Compile the source code using the provided Makefile.
+2. Run the resulting binary to mount the virtual file system.
